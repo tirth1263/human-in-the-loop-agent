@@ -1,0 +1,23 @@
+[project]
+name = "human-in-the-loop-agent"
+version = "1.0.0"
+description = "A Python AI agent that demonstrates human approval, rejection, and retry loops before tool execution."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Tirth Rank" }]
+dependencies = [
+  "agno>=2.2.0",
+  "openai>=2.0.0",
+  "python-dotenv>=1.0.1",
+  "rich>=13.9.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/tirth1263/human-in-the-loop-agent"
+Repository = "https://github.com/tirth1263/human-in-the-loop-agent"
+Nebius = "https://tokenfactory.nebius.com/"
+
+[tool.uv]
+package = false
+

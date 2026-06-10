@@ -1,0 +1,5 @@
+agno>=2.2.0
+openai>=2.0.0
+python-dotenv>=1.0.1
+rich>=13.9.0
+
